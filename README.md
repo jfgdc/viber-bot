@@ -32,7 +32,7 @@ npm install -g now
 * Let's deploy our bot with access token . Edit the following command with your access token and run it in the cloned repository folder
 
 ```bash
-now -e VIBER_PUBLIC_ACCOUNT_ACCESS_TOKEN_KEY="YOUR_PUBLIC_ACCOUNT_TOKEN"
+now -e NOW_URL="YOUR_NOW_URL" -e VIBER_PUBLIC_ACCOUNT_ACCESS_TOKEN_KEY="YOUR_PUBLIC_ACCOUNT_TOKEN"
 ```
 
 **That's it!** Now your bot is deployed. Start talking with it in your Viber app. Simply navigate to your Public Account and click on the `Message` button.
