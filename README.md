@@ -33,6 +33,7 @@ npm install -g now
 
 ```bash
 now -e NOW_URL="YOUR_NOW_URL" -e VIBER_PUBLIC_ACCOUNT_ACCESS_TOKEN_KEY="YOUR_PUBLIC_ACCOUNT_TOKEN"
+Ex. now -e NOW_URL="https://myviberbot-jaysonfallan.vercel.app/" -e VIBER_PUBLIC_ACCOUNT_ACCESS_TOKEN_KEY="4eed73cac627e622-9e0ab8d5df33a8a4-c88538c877e1be81"
 ```
 
 **That's it!** Now your bot is deployed. Start talking with it in your Viber app. Simply navigate to your Public Account and click on the `Message` button.
